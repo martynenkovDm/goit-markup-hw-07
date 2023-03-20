@@ -386,10 +386,10 @@
 }
 @media screen and (min-width: 480px) {
   .menu-soc-list {
+    gap: 56px;
     margin-top: 48px;
     display: flex;
     justify-content: start;
-    gap: 56px;
   }
 }
 
