@@ -332,8 +332,8 @@
   .menu-soc-list {
     margin-top: 48px;
     display: flex;
-    justify-content: center;
-    gap: 56px;
+    justify-content: start;
+    gap: 30px;
   }
   .menu-address-list .menu-contact-phone:hover {
     color: var(--primary-button-color);
@@ -382,6 +382,14 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
+  }
+}
+@media screen and (min-width: 480px) {
+  .menu-soc-list {
+    margin-top: 48px;
+    display: flex;
+    justify-content: start;
+    gap: 56px;
   }
 }
 
