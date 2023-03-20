@@ -16,14 +16,17 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link href="./css/styles.css" rel="stylesheet" />
+    <link href="./css/desktop.css" rel="stylesheet" />
+    <link href="./css/tablet.css" rel="stylesheet" />
+    <link href="./css/mobile.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header">
       <div class="container">
         <nav class="header-navigation">
           <a class="logotype" href="./index.html"
-            >Web<span class="logotype-studio">Studio</span></a
-          >
+            >Web<span class="logotype-studio">Studio</span>
+          </a>
           <ul class="header-list">
             <li class="header-item">
               <a href="./index.html" class="header-link">Studio</a>
@@ -52,6 +55,13 @@
             </li>
           </ul>
         </address>
+        <div class="header-btn-box">
+          <button type="button" class="menu-modal-btn" data-menu-open>
+            <svg class="icon-menu2" width="32px" height="22px">
+              <use href="./images/icons.svg#icon-menu-hamburger"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </header>
     <main>
@@ -91,8 +101,6 @@
                 <img
                   src="./images/project-card-img1.jpg"
                   alt="project card img1"
-                  width="360"
-                  height="300"
                 />
                 <p class="filter-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -110,8 +118,6 @@
                 <img
                   src="./images/project-card-img2.jpg"
                   alt="project card img2"
-                  width="360"
-                  height="300"
                 />
                 <p class="filter-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -129,8 +135,6 @@
                 <img
                   src="./images/project-card-img3.jpg"
                   alt="project card img3"
-                  width="360"
-                  height="300"
                 />
                 <p class="filter-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -148,8 +152,6 @@
                 <img
                   src="./images/project-card-img4.jpg"
                   alt="project card img4"
-                  width="360"
-                  height="300"
                 />
                 <p class="filter-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -168,8 +170,6 @@
                 <img
                   src="./images/project-card-img5.jpg"
                   alt="project card img5"
-                  width="360"
-                  height="300"
                 />
                 <p class="filter-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -188,8 +188,6 @@
                 <img
                   src="./images/project-card-img6.jpg"
                   alt="project card img6"
-                  width="360"
-                  height="300"
                 />
                 <p class="filter-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -208,8 +206,6 @@
                 <img
                   src="./images/project-card-img7.jpg"
                   alt="project card img7"
-                  width="360"
-                  height="300"
                 />
                 <p class="filter-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -228,8 +224,6 @@
                 <img
                   src="./images/project-card-img8.jpg"
                   alt="project card img8"
-                  width="360"
-                  height="300"
                 />
                 <p class="filter-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -248,8 +242,6 @@
                 <img
                   src="./images/project-card-img9.jpg"
                   alt="project card img9"
-                  width="360"
-                  height="300"
                 />
                 <p class="filter-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -330,5 +322,72 @@
         </div>
       </div>
     </footer>
+    <!----             -->
+    <div class="modal-menu is-hidden" data-menu>
+      <div class="menu-container">
+        <button class="modal-button" type="button" data-menu-close>
+          <svg class="modal-soc-icon">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="modal-menu-list list">
+          <li class="modal-menu-item">
+            <a class="header-link" href="./index.html">Studio</a>
+          </li>
+          <li class="modal-menu-item">
+            <a class="header-link current" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="modal-menu-item">
+            <a class="header-link" href="#">Contacts</a>
+          </li>
+        </ul>
+        <address class="address">
+          <ul class="menu-address-list">
+            <li>
+              <a class="menu-contact-phone" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a class="menu-contact-mail" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="menu-soc-list">
+            <li class="team-soc-item">
+              <a href="" class="team-soc-link">
+                <svg class="team-soc-icon link" width="16px" height="16px">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-soc-item">
+              <a href="" class="team-soc-link"
+                ><svg class="team-soc-icon link" width="16px" height="16px">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-soc-item">
+              <a href="" class="team-soc-link"
+                ><svg class="team-soc-icon link" width="16px" height="16px">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-soc-item">
+              <a href="" class="team-soc-link"
+                ><svg class="team-soc-icon link" width="16px" height="16px">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </div>
+    <!----             -->
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

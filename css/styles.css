@@ -224,7 +224,13 @@ body {
   background-color: var(--focus-nav-color);
   border-radius: 2px;
 }
-
+.icon-menu2 {
+  stroke: var(--secondary-bc-color);
+}
+.menu-modal-btn {
+  background-color: transparent;
+  border: none;
+}
 /** Main content */
 /** HERO */
 .hero-title {
@@ -432,6 +438,10 @@ body {
 .filter-item:hover .filter-cover-text {
   transform: translateY(0);
 }
+.filter-cover-wrap img {
+  width: 360px;
+  height: 300px;
+}
 .filter-cover-text {
   position: absolute;
   top: 0;
@@ -578,6 +588,40 @@ body {
   border-radius: 4px;
   padding: 24px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-icons-soc-list {
+  display: flex;
+  gap: 56px;
+  margin-top: 48px;
+}
+.modal-icons {
+  width: 24px;
+  height: 24px;
+}
+.modal-icons-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--buttons-color);
+  fill: #ffffff;
+}
+.menu-modal-btn-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  margin: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: transparent;
 }
 .backdrop.is-hidden .modal {
   transform: translate(-50%, 200%) scale(0);
