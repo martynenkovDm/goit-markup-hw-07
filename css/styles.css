@@ -16,6 +16,7 @@
   --modal-color: #fcfcfc;
   --modal-btn-color: #2e2f42;
   --modal-input-color: rgb(46, 47, 66, 0.2);
+  --footer-input-b-color: rgb(255, 255, 255, 0.3);
   --modal-label-text: #8e8f99;
   --modal-area-text: rgb(142, 143, 153, 0.5);
 }
@@ -120,7 +121,7 @@ body {
 }
 .button.hero-btn {
   border-radius: 4px;
-  padding: 16px 32px;
+  padding: 16px 31px;
 }
 .button.filter-btn {
   border: 1px solid var(--footer-text-color);
