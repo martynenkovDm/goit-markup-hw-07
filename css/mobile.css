@@ -333,7 +333,7 @@
     margin-top: 48px;
     display: flex;
     justify-content: center;
-    gap: 64px;
+    gap: 56px;
   }
   .menu-address-list .menu-contact-phone:hover {
     color: var(--primary-button-color);
