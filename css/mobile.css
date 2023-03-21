@@ -414,6 +414,11 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+@media screen and (max-width: 479px) {
+  .menu-contact-phone {
+    font-size: 26px;
+  }
+}
 
 /**   ------------------------- TABLET---------------*/
 @media screen and (min-width: 768px) {
@@ -1068,7 +1073,7 @@
     flex-wrap: wrap;
     justify-content: start;
     margin-top: 72px;
-    row-gap: 24px;
+    row-gap: 48px;
     column-gap: 24px;
   }
   .filter-cover-wrap img {
